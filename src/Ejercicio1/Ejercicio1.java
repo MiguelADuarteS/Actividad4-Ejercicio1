@@ -29,7 +29,7 @@ resultado se debe mostrar otra vez el menú. Hacer validaciones de datos.
         System.out.println("\nSeleccione que operecion desea realizar");
         opcion = leer.nextInt();
     
-        if (opcion == 1) {
+        if (opcion == 1){
             System.out.print("Ingrese el primer numero: ");
             double numero1 = leer.nextDouble();
             System.out.print("Ingrese el segundo numero: ");
@@ -76,6 +76,6 @@ resultado se debe mostrar otra vez el menú. Hacer validaciones de datos.
             Operaciones miOperacion= new Operaciones(numero1,numero1);
             System.out.println("\nLa raiz cuadrada de " + numero1+" es: " + miOperacion.raizCuadrada());
         }
-    }while((opcion<1)||(opcion>7));
+    }while((opcion>1)||(opcion<7));
 }
 }
